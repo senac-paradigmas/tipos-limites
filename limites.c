@@ -3,10 +3,10 @@
 #include <limits.h> // contantes com os valores máximos
 
 int main() {
-   int overflow = 0; 
+   int explodir_representacao = 0; 
    
    // INT_MAX = +2147483647 ou 2^32/2 signed_int
-   overflow =  INT_MAX + 1; 
+   explodir_representacao =  INT_MAX + 1; 
    
    return 0;
 }
